@@ -1,12 +1,14 @@
-Required:
--Videos page
--Video details page
+TODO:
+Video Page:
   -Like Video
   -Publish/Unpublish Video
--Create Video page
--Edit Video page (or modal maybe)
--Profile page
+-Create Video
+-Edit Video
+-Profile page:
+  -Unpublished Videos
+  -Followers
   -Follow creator
+-Secure routes
 
 Optional:
 -Deployment
