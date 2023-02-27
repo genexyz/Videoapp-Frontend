@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Videos Creator Platform - Full Stack Developer Assessment - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this platform video creators can upload (video URL) new videos, sign up, list the available videos and video creators. They will also have the ability to like videos and follow other video creators.
 
-## Available Scripts
+## How to set up the app locally
 
-In the project directory, you can run:
+1.  Install the required dependecies
 
-### `npm start`
+```
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.  Create a .env file in the root directory with the server URL
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+REACT_APP_SERVER_URL=http://localhost:8000
+```
 
-### `npm test`
+3. To start the app run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm run start
+```
 
-### `npm run build`
+This will start the client on http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Considerations and Notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The app is currently deployed online to use, the client can be found at:
 
-### `npm run eject`
+```
+https://videoapp-frontend.vercel.app/
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The deployment is already connected to the deployed server, so testing can be made easily.
+If you have any error to set up the local enviroment, feel free to test the client in the deployed url.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Functionalities
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Sign in & Sign out (JWT)
+- List videos
+- Video details
+- Profile details (incomplete)
+- Responsiveness app-wide
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+As i gave more importance to the Backend implementation, the following frontend functionalities are not implemented yet:
 
-## Learn More
+- Like/Unlike Video
+- Publish/Unpublish Video
+- Create Video
+- Edit Video
+- Follow/Unfollow Creator
+- See followers in profile page
+- See unpublished videos in profile page (only if you are that user)
+- Protected Routes
+- CSS to make app look better
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Testing (not implemented yet)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
+
+- React.js
+- Typescript
+- Material UI

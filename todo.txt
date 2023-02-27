@@ -11,5 +11,4 @@ Video Page:
 -Secure routes
 
 Optional:
--Deployment
 -Unit Testing & Integration Testing
