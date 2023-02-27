@@ -1,0 +1,13 @@
+Required:
+-Videos page
+-Video details page
+  -Like Video
+  -Publish/Unpublish Video
+-Create Video page
+-Edit Video page (or modal maybe)
+-Profile page
+  -Follow creator
+
+Optional:
+-Deployment
+-Unit Testing & Integration Testing
