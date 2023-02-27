@@ -37,6 +37,15 @@ https://videoapp-frontend.vercel.app/
 The deployment is already connected to the deployed server, so testing can be made easily.
 If you have any error to set up the local enviroment, feel free to test the client in the deployed url.
 
+### Users to test
+
+To test the app you can use the followed users, which are already loaded in the cloud database
+
+```
+user1@example.com - password1$
+user2@example.com - password2$
+```
+
 ### Functionalities
 
 - Sign in & Sign out (JWT)
