@@ -35,7 +35,7 @@ https://videoapp-frontend.vercel.app/
 ```
 
 The deployment is already connected to the deployed server, so testing can be made easily.
-If you have any error to set up the local environment, feel free to test the client in the deployed URL.
+If you have any errors when setting up the local environment, feel free to test the client in the deployed URL.
 
 ### Users to test
 
