@@ -1,10 +1,10 @@
 # Videos Creator Platform - Full Stack Developer Assessment - Frontend
 
-In this platform video creators can upload (video URL) new videos, sign up, list the available videos and video creators. They will also have the ability to like videos and follow other video creators.
+In this platform video creators can upload (video URL) new videos, sign up, and list the available videos and video creators. They will also have the ability to like videos and follow other video creators.
 
 ## How to set up the app locally
 
-1.  Install the required dependecies
+1.  Install the required dependencies
 
 ```
 npm install
@@ -35,11 +35,11 @@ https://videoapp-frontend.vercel.app/
 ```
 
 The deployment is already connected to the deployed server, so testing can be made easily.
-If you have any error to set up the local enviroment, feel free to test the client in the deployed url.
+If you have any error to set up the local environment, feel free to test the client in the deployed URL.
 
 ### Users to test
 
-To test the app you can use the followed users, which are already loaded in the cloud database
+To test the app you can use the following users, which are already loaded in the cloud database
 
 ```
 user1@example.com - password1$
